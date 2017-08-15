@@ -31,10 +31,5 @@ class window_shopperTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-    
-    func testGetHours() {
-        XCTAssert(Wage.getHours(forWage: 25, andPrice: 100) == 4)
-        XCTAssert(Wage.getHours(forWage: 15.50, andPrice: 250.53) == 17)
-    }
-    
+        
 }

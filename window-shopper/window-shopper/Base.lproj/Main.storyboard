@@ -27,7 +27,7 @@
                                     <constraint firstAttribute="width" constant="60" id="X7g-Rz-1Al"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your hourly wage" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0L1-3z-LqX" customClass="AlphaRounded" customModule="window_shopper" customModuleProvider="target">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Salariul tău lunar net" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0L1-3z-LqX" customClass="AlphaRounded" customModule="window_shopper" customModuleProvider="target">
                                 <rect key="frame" x="20" y="165" width="335" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="fCy-Xv-GRc"/>
@@ -36,7 +36,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Item price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Ce-jd-pGk" customClass="AlphaRounded" customModule="window_shopper" customModuleProvider="target">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Prețul" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Ce-jd-pGk" customClass="AlphaRounded" customModule="window_shopper" customModuleProvider="target">
                                 <rect key="frame" x="20" y="230" width="335" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="rRE-vG-51M"/>
@@ -51,8 +51,8 @@
                                 <color key="textColor" red="0.99063784865884741" green="1" blue="0.96404309409811817" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hours" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NC0-su-F9c">
-                                <rect key="frame" x="166" y="359" width="43.5" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ore" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NC0-su-F9c">
+                                <rect key="frame" x="175.5" y="359" width="25" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -62,7 +62,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="FhD-Ob-tYi"/>
                                 </constraints>
-                                <state key="normal" title="Clear calculator">
+                                <state key="normal" title="Curăță calculatorul">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>

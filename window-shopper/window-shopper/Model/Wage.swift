@@ -9,6 +9,8 @@
 import Foundation
 class Wage {
     class func getHours(forWage wage: Double, andPrice price: Double) -> Int {
-        return Int(ceil(price/wage))
+        // Calculat hourly wage based on monthly wage: 22 working days, 8h per day
+        let wageH = wage / 176
+        return Int(ceil(price/wageH))
     }
 }
